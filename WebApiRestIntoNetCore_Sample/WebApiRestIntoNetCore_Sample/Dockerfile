@@ -25,7 +25,7 @@
 FROM microsoft/dotnet:2.1-sdk
 WORKDIR /app
 #EXPOSE 59518
-EXPOSE 44364
+EXPOSE 5000
 
 # copy csproj and restore as distinct layers
 COPY *.csproj ./
