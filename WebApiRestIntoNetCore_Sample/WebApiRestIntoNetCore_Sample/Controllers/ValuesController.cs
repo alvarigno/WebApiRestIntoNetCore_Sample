@@ -21,7 +21,7 @@ namespace WebApiRestIntoNetCore_Sample.Controllers
         [HttpGet("{id}")]
         public ActionResult<string> Get(int id)
         {
-            return "value";
+            return "value"+id;
         }
 
         // POST api/values
